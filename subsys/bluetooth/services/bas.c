@@ -25,7 +25,7 @@
 #include <logging/log.h>
 LOG_MODULE_REGISTER(bas);
 
-static uint8_t battery_level = 100U;
+static uint8_t battery_level = 0U;
 
 static void blvl_ccc_cfg_changed(const struct bt_gatt_attr *attr,
 				       uint16_t value)
